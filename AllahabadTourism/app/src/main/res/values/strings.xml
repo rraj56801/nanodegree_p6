@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Allahabad Tourism</string>
+    <!--Activities-->
+    <string name="activities_karting">Go Karting</string>
+    <string name="activities_segway">Segway Tour</string>
+    <string name="activities_motoring">Para Motoring</string>
+    <string name="activities_vegas">Gaming Vegas</string>
+    <string name="activities_camping">Camping</string>
+    <string name="activities_skating">Ice Skating</string>
+    <string name="activities_trekking">Trekking</string>
+    <string-array name="activities_name">
+        <item>Para Motoring</item>
+        <item>Go Karting</item>
+        <item>Segway Tour</item>
+        <item>Camping</item>
+        <item>Gaming Vegas</item>
+        <item>Ice Skating</item>
+        <item>Trekking</item>
+    </string-array>
+    <string-array name="activities_short_desc">
+        <item>Allahabad</item>
+        <item>5-storey victory tower with balconies</item>
+        <item>Palatial 16th-century tomb of Humayun</item>
+        <item>1920s triumphal arch and war memorial</item>
+        <item>Vast, 17th-century Mughal-style mosque</item>
+        <item>Temple with a flower-like design</item>
+        <item>18th-century astronomy complex</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
