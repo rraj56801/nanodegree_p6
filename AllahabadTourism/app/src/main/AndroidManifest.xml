@@ -20,7 +20,8 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activities.ActivityDetails"></activity>
+        <activity android:name=".activities.ActivityDetail" />
+        <activity android:name=".activities.AttractionDetail" />
     </application>
 
 </manifest>

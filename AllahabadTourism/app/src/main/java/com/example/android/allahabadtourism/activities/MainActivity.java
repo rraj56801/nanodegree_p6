@@ -14,6 +14,9 @@ import android.widget.VideoView;
 import com.example.android.allahabadtourism.R;
 import com.example.android.allahabadtourism.fragments.ActivityFragment;
 import com.example.android.allahabadtourism.fragments.AttractionFragment;
+import com.example.android.allahabadtourism.fragments.FragmentFood;
+import com.example.android.allahabadtourism.fragments.FragmentIndustry;
+import com.example.android.allahabadtourism.fragments.FragmentShoping;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new AttractionFragment(),"Attraction");
         adapter.addFragment(new ActivityFragment(),"Activity");
+        adapter.addFragment(new FragmentShoping(),"Shopping Center");
+        adapter.addFragment(new FragmentIndustry(),"Industry");
+        adapter.addFragment(new FragmentFood(),"Food");
          viewPager.setAdapter(adapter);
     }
 

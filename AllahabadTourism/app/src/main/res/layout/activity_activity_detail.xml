@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context="com.example.android.allahabadtourism.activities.ActivityDetail">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_height">
+
+                <TextView
+                    android:id="@+id/text_activities_title"
+                    android:text="Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/toolbar_text_size" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <ImageView
+            android:id="@+id/image_list_activities"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_act_details_height"
+            android:scaleType="centerCrop" />
+        <!--  android:src="image" -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_act_details">
+
+                <TextView
+                    style="@style/DetailTextHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/what" />
+
+                <TextView
+                    android:id="@+id/textView_what"
+                    style="@style/DetailActivityTextContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What" />
+
+                <TextView
+                    style="@style/DetailTextHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/when" />
+
+                <TextView
+                    android:id="@+id/textView_when"
+                    style="@style/DetailActivityTextContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When" />
+
+                <TextView
+                    style="@style/DetailTextHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/where" />
+
+                <Button
+                    android:id="@+id/button_maps"
+                    style="@style/MapsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/maps" />
+
+                <TextView
+                    style="@style/DetailTextHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/how_much" />
+
+                <TextView
+                    android:id="@+id/textView_howmuch"
+                    style="@style/DetailActivityTextContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HowMuch" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
