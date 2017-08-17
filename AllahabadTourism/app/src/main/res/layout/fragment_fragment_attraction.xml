@@ -1,20 +1,15 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.allahabadtourism.fragments.AttractionFragment">
 
-    <FrameLayout
+    <ListView
+        android:id="@+id/attraction_listView_id"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent" />
 
-        <ListView
-            android:id="@+id/attraction_listView_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:divider="@android:color/transparent" />
-    </FrameLayout>
-
-</RelativeLayout>
+</LinearLayout>

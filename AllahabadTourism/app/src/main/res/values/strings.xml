@@ -1,13 +1,56 @@
 <resources>
     <string name="app_name">Allahabad Tourism</string>
+    <string-array name="fragment_name">
+        <item>Attraction</item>
+        <item>Activity</item>
+        <item>Shopping Center</item>
+        <item>Industry</item>
+        <item>Restaurant</item>
+        <item>HelpLine</item>
+    </string-array>
+    <!--Attractions-->
+    <string-array name="attraction_name">
+        <item>Anand Bhavan</item>
+        <item>Allahabad Fort</item>
+        <item>Alfred Park</item>
+        <item>Allahabad Museum</item>
+        <item>Fungaon Amusement</item>
+        <item>Jawahar Lal Planetorium</item>
+        <item>Patalpuri Temple</item>
+        <item>Sangam Triveni</item>
+    </string-array>
+
+    <string-array name="attraction_description_short">
+        <item>Anand Bhavan is the ancestral home of Jawaharlal Nehru, the first Prime-Minister of India.</item>
+        <item>Allahabad Fort is a fort built by the Mughal emperor Akbar at Allahabad, in 1583.</item>
+        <item>Alfred Park is a public park in Allahabad. Built in 1870 to mark Prince Alfred\'s visit to the city</item>
+        <item>The Allahabad Museum is a national-level museum in Allahabad, Uttar Pradesh.</item>
+        <item>An amusement-cum-water park for all age groups so that the entire family can enjoy together</item>
+        <item>It is situated beside Anand Bhavan the former residence of the Nehru-Gandhi family and now a museum.</item>
+        <item>Built by the Mughal Emperor Akbar.</item>
+        <item>Triveni Sangam in Allahabad is the confluence of three rivers, Yamuna, Ganga and the mythical Saraswati.</item>
+    </string-array>
+    <string-array name="attraction_description_long">
+        <item>The Anand Bhavan is a historic house museum in Allahabad, India focusing on the Nehru Family. It was constructed by Indian political leader Motilal Nehru in the 1930s to serve as the residence of the Nehru family when the original mansion Swaraj Bhavan (previously called Anand Bhavan) was transformed into the local headquarters of the Indian National Congress.Anand Bhavan was donated to Indian government in 1970 by the then Prime Minister Indira Gandhi, the granddaughter of Motilal Nehru and daughter of Jawaharlal Nehru.</item>
+        <item>Allahabad Fort (Hindi: इलाहाबाद क़िला, Urdu: الہ آباد قلعہ Ilāhābād Qila) is a fort built by the Mughal emperor Akbar at Allahabad, Uttar Pradesh, India in 1583. The fort stands on the banks of the Yamuna near its confluence with the river Ganges. It is recognised by the Archaeological Survey of India as a monument of national importance.</item>
+        <item>Chandrasekhar Azad Park (British colonial era Alfred Park and informally Company Bagh) is a public park in Allahabad. Built in 1870 to mark Prince Alfred  visit to the city, with an area of 133 acres, it is the biggest park in Allahabad. It was renamed after freedom fighter Chandra Shekhar Azad, who sacrificed his life here, during the Indian independence struggle in 1931. Originally and still famously the park is known as Alfred Park.</item>
+        <item>The Allahabad Museum is a national-level museum in Allahabad, Uttar Pradesh. Established in 1931, it is known for its rich collection and unique objects of art, and is funded by Ministry of Culture. Moreover, it is a premier research centre for archaeologists, historians and academicians and carries out extensive research activities and publications in archaeology, art and literature. Its rock art gallery has the largest collection of prehistoric paintings displayed in India dating from 14,000 B.C to 2000 B.C. The museum, using solar power system, has become the first museum in the country to become self-reliant in power generation.</item>
+        <item>As the name suggests, Fun Gaon Water Park in Allahabad is a fun-filled place to be in. Literally meaning “A village of Fun” – Fun Gaon is situated on Kaushambi Road in Allahabad. It is a popular water, amusement park of Allahabad and is a fun place for people of all age groups. So, it has something to offer for every visitor. The water at this park is quite clean, and thus the quality and cleanliness attracts huge number of visitors.</item>
+        <item>The Jawahar Planetarium is located in the city of Allahabad in Uttar Pradesh, India. It was built in 1979 and is situated beside Anand Bhavan the former residence of the Nehru-Gandhi family and now a museum. It is managed by the Jawaharlal Nehru Memorial Fund (estb. 1964), which has its headquarters at Teen Murti House, New Delhi. Each year, the prestigious Jawaharlal Nehru Memorial Lecture is also held at the planetarium, organised under the auspices of Jawaharlal Nehru Memorial Fund on the birth anniversary of Indias first prime minister, November 14.</item>
+        <item>"Within this underground temple, inside the fort, lies the Akshaya Vat - or the immortal tree."Believed to have been visited by Lord Rama, the temple was also seen by the famous Chinese traveler and writer Hiuen Tsang during his visit to this place.</item>
+        <item>In Hindu tradition Triveni Sangam is the "confluence" of three rivers. Sangama is the Sanskrit word for confluence. The point of confluence is a sacred place for Hindus. A bath here is said to flush away all of ones sins and free one from the cycle of rebirth.</item>
+    </string-array>
+    <string-array name="attractions_where">
+        <item>https://goo.gl/maps/hLDB9sSmRLU2</item>
+        <item>https://goo.gl/maps/ivD9j55e8sG2</item>
+        <item>https://goo.gl/maps/2Pa8rHMMery</item>
+        <item>https://goo.gl/maps/spXza8yoEpA2</item>
+        <item>https://goo.gl/maps/sB1Dq7HrWAn</item>
+        <item>https://goo.gl/maps/8FWkjoV382T2</item>
+        <item>https://goo.gl/maps/pdS7TDjPbB42</item>
+        <item>https://goo.gl/maps/FenkQX97bSy</item>
+    </string-array>
     <!--Activities-->
-    <string name="activities_karting">Go Karting</string>
-    <string name="activities_segway">Segway Tour</string>
-    <string name="activities_motoring">Para Motoring</string>
-    <string name="activities_vegas">Gaming Vegas</string>
-    <string name="activities_camping">Camping</string>
-    <string name="activities_skating">Ice Skating</string>
-    <string name="activities_trekking">Trekking</string>
     <string-array name="activities_name">
         <item>Para Motoring</item>
         <item>Go Karting</item>
@@ -18,7 +61,7 @@
         <item>Trekking</item>
     </string-array>
     <string-array name="activities_short_desc">
-        <item>Allahabad</item>
+        <item>Enjoy a session of paramotoring which lets you fly in the sky like a bird with the help of a paramotor</item>
         <item>5-storey victory tower with balconies</item>
         <item>Palatial 16th-century tomb of Humayun</item>
         <item>1920s triumphal arch and war memorial</item>
@@ -26,7 +69,6 @@
         <item>Temple with a flower-like design</item>
         <item>18th-century astronomy complex</item>
     </string-array>
-
     <string name="what">What?</string>
     <string name="when">When?</string>
     <string name="where">Where?</string>
@@ -52,7 +94,7 @@
             &#8226; Safety gear and trained instructors.\n
         </item>
         <item>
-            &#8226; Enjoy a fun-filled camping session with various games and activities for 8 hours in Gurgaon.\n
+            &#8226; Enjoy a fun-filled camping session with various games and activities for 8 hours in Allahabad.\n
             &#8226; The camp is ideal for those who want to spend a delightful time with a group of friends or family.\n
             &#8226; This 8 hour camp also includes lunch and evening tea with snacks.\n
         </item>
@@ -71,7 +113,7 @@
             &#8226; Socks are on sale in case one feels too cold.\n
             &#8226; The key attractions are a natural ice rink, an in-house DJ, sound and light audio systems.\n
             &#8226; There is a fully operational bar and food station available.\n
-            &#8226; iSKATE is India\'s first natural ice skating rink and café.\n
+            &#8226; iSKATE is Indias first natural ice skating rink and café.\n
         </item>
         <item>
             &#8226; Enjoy the scenic beauty of the place while doing this activity.\n
@@ -86,7 +128,7 @@
         <item>All Days, From 05:15AM</item>
         <item>All Days, From 10:00AM</item>
         <item>All Days, 11:00AM to 09:00PM</item>
-        <item>All Days, 10:00AM to 09:00PM</item>
+        <item>Monday to Friday, 10:00AM to 09:00PM</item>
         <item>All Days, From 07:00AM</item>
     </string-array>
     <string-array name="activities_how_much">
@@ -98,119 +140,114 @@
         <item>Adult and Child : ₹499</item>
         <item>Adult and Child : ₹1199</item>
     </string-array>
+    <!-- Using as array so that it can be populaated as per the need -->
     <string-array name="activities_where">
-        <item>geo:28.237282,77.149235?q=westin</item>
-        <item>geo:28.5014869,76.9669686?q=oysters</item>
-        <item>geo:28.612912,77.227321?q=segway</item>
-        <item>geo:28.340102,77.0080163?q=camp</item>
-        <item>geo:28.5742369,77.3509628?q=gaming</item>
-        <item>geo:28.5033081,77.0953191?q=iskate</item>
-        <item>geo:28.5033036,77.0624882?q=village</item>
+        <item>https://goo.gl/maps/R3fXs7RnAvx</item>
+    </string-array>
+
+    <string-array name="shopping_name">
+        <item>P Square Mall</item>
+        <item>Vinyak City</item>
+        <item>Sasta Mart</item>
+        <item>Shree Sai IMC</item>
+        <item>Global Sky Shop</item>
+        <item>Prayag Pet world</item>
+
+    </string-array>
+    <string-array name="shopping_short_desc">
+        <item>218 E/71, MG Marg, Civil Lines, Madhopur, Allahabad, Uttar Pradesh 211001</item>
+        <item>48/24, Sardar Patel Marg, Civil Lines, Allahabad, Uttar Pradesh 211001</item>
+        <item>85 D Daud Nagar Naini, Allahabad, Uttar Pradesh 211008</item>
+        <item>41F/70A/5B/1 MADHOPUR PATTI UP, Kharkauni, Naini, Allahabad, Uttar Pradesh 211008</item>
+        <item>05 allahabad, A. D. A. Colony, Naini, Allahabad, Uttar Pradesh 211008</item>
+        <item>38/1, Near Jeetlal Chauraha, P.A.C. Colony, Naini, Allahabad, Uttar Pradesh 211008</item>
+    </string-array>
+    <string-array name="shopping_description_long">
+        <item>A quiet good mall with free parking. Shopping options and a quick are easily available here. There are several fast food chains and restaurants to go to. Other franchise here includes Amway etc.</item>
+        <item>The best mall and shopping complex in the city. Almost every famous brand is available here. The gaming console is good with number of gaming options available. Restaurants are a bit expensive.</item>
+        <item>Not the best mall or shopping complex in the city.But, Almost every famous brand is available here. The gaming console is good with number of gaming options available. Restaurants are a bit expensive.</item>
+        <item>Trader and distributor of teleshopping products, plastic products, buckets, plastic tiffin, plastic lunch box, plastic mug, plastic spoon, plastic</item>
+        <item>Global Sky Shop - Ecommerce Shop / Online Business of zipper top, mayra womens polyester 34 sleeve top and gear black and blue casual backpack ba in Allahabad, Uttar Pradesh.</item>
+        <item>Pet Training Service, German Shepherd Pet Dog and Pet Dog Food Wholesaler offered by Prayag Dog Kennel from Allahabad, Uttar Pradesh, India.</item>
+    </string-array>
+    <string-array name="shopping_where">
+        <item>https://goo.gl/maps/tGhj1dAgVRo</item>
+        <item>https://goo.gl/maps/AB6KSKy9nR22</item>
+        <item>https://goo.gl/maps/v1qNiV8G9AQ2</item>
+        <item>https://goo.gl/maps/tDVG6FuUFQE2</item>
+        <item>https://goo.gl/maps/YmhaFwxCfpT2</item>
+        <item>https://goo.gl/maps/ji23KmrDLU62</item>
+    </string-array>
+    <string-array name="industry_name">
+        <item>Techno Industries</item>
+        <item>myBPC</item>
+        <item>EMC Limited</item>
+        <item>Reliance</item>
+        <item>Alstom</item>
+        <item>SAIL INDIA</item>
+    </string-array>
+    <string-array name="industry_short_desc">
+        <item> 67/23/41- J, Ramanand Nagar, Allahpur, Allahabad, Uttar Pradesh 211006</item>
+        <item>Mirzapur Road, Naini, Allahabad, Uttar Pradesh 211009</item>
+        <item>Naini Railway, Mirzapur Rd, Naini, Allahabad, Uttar Pradesh 211010</item>
+        <item>154, Tilak Nagar, Allahpur, Allahabad, Uttar Pradesh 211006</item>
+        <item>Naini, Mirzapur Rd, Naini, Allahabad, Uttar Pradesh 211010</item>
+        <item>Cheoiki, Mirzapur Rd, Naini, Allahabad, Uttar Pradesh 211010</item>
+    </string-array>
+    <!--Using array so that it can be populated as needed -->
+    <string-array name="industry_description_long">
+        <item>They as a full service mechanical product developer and manufacturer, offer a wide range of quality product development. This includes manufacturing Telecom connectors, BTS Subrack Front Plates and various fasteners for assembly and installations.</item>
+        <item>They as a full service mechanical product developer and manufacturer, offer a wide range of quality product development. This includes manufacturing Telecom connectors, BTS Subrack Front Plates and various fasteners for assembly and installations.</item>
+    </string-array>
+    <!--Using array so that it can be populated as needed -->
+    <string-array name="industry_where">
+        <item>https://goo.gl/maps/hLDB9sSmRLU2</item>
+        <item>https://goo.gl/maps/hLDB9sSmRLU2</item>
+    </string-array>
+    <string-array name="restaurant_name">
+        <item>KFC</item>
+        <item>Eat On</item>
+        <item>McDonalds</item>
+        <item>Subway</item>
+        <item>PizzaHut</item>
+        <item>Dominos</item>
+    </string-array>
+    <string-array name="restaurant_short_desc">
+        <item>218 E/71, MG Marg, Civil Lines, Madhopur, Allahabad, Uttar Pradesh 211001</item>
+        <item>48/24, Sardar Patel Marg, Civil Lines, Allahabad, Uttar Pradesh 211001</item>
+        <item>85 D Daud Nagar Naini, Allahabad, Uttar Pradesh 211008</item>
+        <item>41F/70A/5B/1 MADHOPUR PATTI UP, Kharkauni, Naini, Allahabad, Uttar Pradesh 211008</item>
+        <item>05 allahabad, A. D. A. Colony, Naini, Allahabad, Uttar Pradesh 211008</item>
+        <item>38/1, Near Jeetlal Chauraha, P.A.C. Colony, Naini, Allahabad, Uttar Pradesh 211008</item>
+    </string-array>
+    <!--Using array so that it can be populated as needed -->
+    <string-array name="restaurant_description_long">
+        <item>A quiet good restaurant in the city. Cards are accepted here and a pre order are easily available here. There are several fast food chains to have here.</item>
+        <item>A quiet good restaurant in the city. Cards are accepted here and a pre order are easily available here. There are several fast food chains to have here.</item>
+    </string-array>
+    <!--Using array so that it can be populated as needed -->
+    <string-array name="restaurant_where">
+        <item>https://goo.gl/maps/hLDB9sSmRLU2</item>
+        <item>https://goo.gl/maps/hLDB9sSmRLU2</item>
     </string-array>
     <string name="description">Description</string>
-    <string-array name="attraction_description_long">
-        <item>
-            The Red Fort is a historical fort in the city of Delhi in India. It was the main residence of the emperors of the Mughal dynasty for nearly 200 years, until 1857. It is located in the center of Delhi and houses a number of museums. In addition to accommodating the emperors and their households, it was the ceremonial and political centre of the Mughal state and the setting for events critically impacting the region.\n\n
-Constructed in 1639 by the fifth Mughal Emperor Shah Jahan as the palace of his fortified capital Shahjahanabad, the Red Fort is named for its massive enclosing walls of red sandstone and is adjacent to the older Salimgarh Fort, built by Islam Shah Suri in 1546. The imperial apartments consist of a row of pavilions, connected by a water channel known as the Stream of Paradise (Nahr-i-Bihisht). The fort complex is considered to represent the zenith of Mughal creativity under Shah Jahan, and although the palace was planned according to Islamic prototypes, each pavilion contains architectural elements typical of Mughal buildings that reflect a fusion of Timurid and Persian traditions. The Red Fort’s innovative architectural style, including its garden design, influenced later buildings and gardens in Delhi, Rajasthan, Punjab, Kashmir, Braj, Rohilkhand and elsewhere.
-        </item>
-        <item>
-            Qutub Minar is a minaret that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. Made of red sandstone and marble, Qutub Minar is a 73-metre (240 feet) tall tapering tower of five storeys, with a 14.3 metre (47 feet) base diameter, reducing to 2.7 metres (9 feet) at the peak. It contains a spiral staircase of 379 steps. Its design is thought to have been based on the Minaret of Jam, in western Afghanistan.\n\n
-Qutb al-Din Aibak, founder of the Delhi Sultanate, started construction of the Qutub Minar\'s first storey around 1192. In 1220, Aibak\'s successor and son-in-law Iltutmish completed a further three storeys. In 1369, a lightning strike destroyed the top storey. Firoz Shah Tughlaq replaced the damaged storey, and added one more.
-        </item>
-        <item>
-            Humayun\'s tomb (Maqbara e Humayun) is the tomb of the Mughal Emperor Humayun in Delhi, India. The tomb was commissioned by Humayun\'s first wife and chief consort, Empress Bega Begum (also known as Haji Begum), in 1569&#8211;70, and designed by Mirak Mirza Ghiyas, a Persian architect chosen by her. It was the first garden&#8211;tomb on the Indian subcontinent, and is located in Nizamuddin East, Delhi, India, close to the Dina&#8211;panah Citadel, also known as Purana Qila (Old Fort), that Humayun founded in 1533. It was also the first structure to use red sandstone at such a scale. The tomb was declared a UNESCO World Heritage Site in 1993, and since then has undergone extensive restoration work, which is complete. Besides the main tomb enclosure of Humayun, several smaller monuments dot the pathway leading up to it, from the main entrance in the West, including one that even pre&#8211;dates the main tomb itself, by twenty years; it is the tomb complex of Isa Khan Niyazi, an Afghan noble in Sher Shah Suri\'s court of the Suri dynasty, who fought against the Mughals, constructed in 1547 CE.
-        </item>
-        <item>
-            The India Gate, (originally called the All India War Memorial), is a war memorial located astride the Rajpath, on the eastern edge of the ‘ceremonial axis’ of New Delhi, India, formerly called Kingsway. India Gate is a memorial to 82,000 soldiers of the Indian Army who died in the period 1914–21 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo Afghan War. 13,300 servicemen\'s names, including some soldiers and officers from the United Kingdom, are inscribed on the gate. The India Gate, even though a war memorial, evokes the architectural style of the triumphal arch like the Arch of Constantine, outside the Colosseum in Rome, and is often compared to the Arc de Triomphe in Paris, and the Gateway of India in Mumbai. It was designed by Sir Edwin Lutyens.
-        </item>
-        <item>
-            The Masjid-i Jahān-Numā (World-reflecting Mosque), commonly known as the Jama Masjid of Delhi, is one of the largest mosques in India.\n\n
-It was built by Mughal emperor Shah Jahan between 1644 and 1656 at a cost of 1 million rupees, and was inaugurated by an imam from Bukhara, present-day Uzbekistan. The mosque was completed in 1656 AD with three great gates, four towers and two 40 m high minarets constructed of strips of red sandstone and white marble. The courtyard can accommodate more than 25,000 persons. There are three domes on the terrace which are surrounded by the two minarets. On the floor, a total of 899 black borders are marked for worshippers. The architectural plan of Badshahi Masjid, built by Shah Jahan\'s son Aurangzeb at Lahore, Pakistan, is similar to the Jama Masjid, Delhi.
-        </item>
-        <item>
-            The Lotus Temple, located in Delhi, India, is a Bahá\'í House of Worship completed in 1986. Notable for its flowerlike shape, it has become a prominent attraction in the city. Like all Bahá\'í Houses of Worship, the Lotus Temple is open to all, regardless of religion or any other qualification. The building is composed of 27 free-standing marble-clad "petals" arranged in clusters of three to form nine sides, with nine doors opening onto a central hall with height of slightly over 40 metres and a capacity of 2,500 people. The Lotus Temple has won numerous architectural awards and been featured in hundreds of newspaper and magazine articles. A 2001 CNN report referred to it as the most visited building in the world.
-        </item>
-        <item>
-            Akshardham or Swaminarayan Akshardham complex is a Hindu mandir, and a spiritual-cultural campus in New Delhi, India. Also referred to as Akshardham Temple or Swaminarayan Akshardham, the complex displays millennia of traditional Hindu and Indian culture, spirituality, and architecture.\n\n
-The temple, which attracts approximately 70 percent of all tourists who visit Delhi, was officially opened on 6 November 2005 by Dr. A.P.J. Abdul Kalam. It sits near the banks of the Yamuna adjacent to the 2010 Commonwealth Games village in eastern New Delhi. The temple, at the centre of the complex, was built according to the Vastu shastra and Pancharatra shastra.
-        </item>
-        <item>
-            Purana Qila (Old Fort) is one of the oldest forts in Delhi. Its current form was built by Sher Shah Suri, the founder of the Sur Empire. Sher Shah raised the citadel of Purana Qila with an extensive city-area sprawling around it. It is believed that the Purana Qila was still incomplete at Sher Shah\'s death in 1545, and was perhaps completed by his son Islam Shah, although it is not certain which parts were built by whom.\n\n
-Excavations carried out by Archaeological Survey of India (ASI) at Purana Quila in 1954-55 (trial trenches) and again 1969-1973 by its Director, B B Lal, have unearthed Painted Grey Ware dating to 1000 BCE.
-        </item>
-        <item>
-            Lodi Gardens or Lodhi Gardens is a city park situated in New Delhi, India. Spread over 90 acres (360,000 m2), it contains, Mohammed Shah\'s Tomb, Tomb of Sikandar Lodi, Shisha Gumbad and Bara Gumbad, architectural works of the 15th century by Lodis- who ruled parts of northern India and Punjab and Khyber Pakhtunkhwa province of modern-day Pakistan, from 1451 to 1526. The site is now protected by the Archaeological Survey of India (ASI).\n\n
-The gardens are situated between Khan Market and Safdarjung\'s Tomb on Lodhi Road and is a hotspot for morning walks for the Delhiites.
-        </item>
-        <item>
-            Jantar Mantar is located in the modern city of New Delhi. It consists of 13 architectural astronomy instruments. The site is one of five built by Maharaja Jai Singh II of Jaipur, from 1723 onwards, as he was given by Mughal emperor Muhammad Shah the task of revising the calendar and astronomical tables. There is a plaque fixed on one of the structures in the Jantar Mantar observatory in New Delhi that was placed there in 1910 mistakenly dating the construction of the complex to the year 1710. Later research, though, suggests 1724 as the actual year of construction.\n\n
-The primary purpose of the observatory was to compile astronomical tables, and to predict the times and movements of the sun, moon and planets. Some of these purposes nowadays would be classified as astronomy.
-        </item>
+    <string-array name="helpline_position">
+        <item>Tourist Officer</item>
+        <item>District Magistrate</item>
+        <item>S.P.</item>
+        <item>Army Officer</item>
+        <item>D.S.P</item>
+        <item>Govt. Hospital</item>
+        <item>Ambulance</item>
     </string-array>
-    <!--Shopping points-->
-    <string-array name="shop_name">
-        <item>Dilli Haat</item>
-        <item>Janpath and Tibetan Market</item>
-        <item>Khan Market</item>
-        <item>Paharganj</item>
-        <item>Chandni Chowk</item>
-        <item>Sarojini Nagar</item>
-        <item>Lajpat Nagar</item>
+    <string-array name="helpline_mobile">
+        <item>94XXX5XXX1</item>
+        <item>94X4XXXXX2</item>
+        <item>93XXXXXXX1</item>
+        <item>93XXX3XXX2</item>
+        <item>97XX2XXXX5</item>
+        <item>94XXXX25X1</item>
+        <item>94X67XXXX1</item>
     </string-array>
-    <string-array name="shop_details">
-        <item>
-            <b>Location:</b> Opposite INA Market, south Delhi. Pitampura, north Delhi. Janakpuri, west Delhi.\n
-            <b>Opening Hours:</b> Daily from 11 a.m. to 10 p.m., including national holidays.\n
-            <b>What to Buy:</b> Indian handicrafts and artifacts.
-        </item>
-        <item>
-            <b>Location:</b> Janpath, just off Connaught Place, in central New Delhi.\n
-            <b>Opening Hours:</b> Daily.\n
-            <b>What to Buy:</b> Handicrafts, hippy clothing, shoes, paintings, brassware, Indian artifacts, leather work, and cheap jewelry.
-        </item>
-        <item>
-            <b>Location:</b> South New Delhi, not far from India Gate.\n
-            <b>Opening Hours:</b> Daily except Sundays.\n
-            <b>What to Buy:</b> Books, music, branded and tailored clothes, Ayurvedic food and cosmetics, and lamps.
-        </item>
-        <item>
-            &#8226; <b>Location:</b> Paharganj Main Bazaar, opposite the New Delhi Railway Station.\n
-            &#8226; <b>Opening Hours:</b> Daily until around 9 p.m.\n
-            &#8226; <b>What to Buy:</b> Clothes, shoes, jewelry, books, music, textiles, handicrafts, hookah pipes, incense.
-        </item>
-        <item>
-            <b>Location:</b> Old Delhi.\n
-            <b>Opening Hours:</b> Daily except Sundays.\n
-            <b>What to Buy:</b> Fabrics, jewelry, and electronic goods.
-        </item>
-        <item>
-            <b>Location:</b> South West Delhi, near Safdarjung Airport.\n
-            <b>Opening Hours:</b> Daily from 11 a.m. to 10 p.m., including national holidays.\n
-            <b>What to Buy:</b> Indian handicrafts and artifacts.
-        </item>
-        <item>
-            <b>Location:</b> Opposite INA Market, south Delhi. Pitampura, north Delhi. Janakpuri, west Delhi.\n
-            <b>Opening Hours:</b> Daily except Mondays.\n
-            <b>What to Buy:</b> Designer clothes, Indian clothes, fashion accessories, shoes.
-        </item>
-    </string-array>
-
-    <!--Attractions-->
-    <string-array name="attraction_name">
-        <item>The Red Fort</item>
-        <item>Qutub Minar</item>
-        <item>Humayun\'s Tomb</item>
-        <item>India Gate</item>
-        <item>Jama Masjid</item>
-        <item>Lotus Temple</item>
-        <item>Akshardham</item>
-        <item>Old Fort</item>
-        <item>Lodhi Garden</item>
-        <item>Jantar Mantar</item>
-    </string-array>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
 
 </resources>

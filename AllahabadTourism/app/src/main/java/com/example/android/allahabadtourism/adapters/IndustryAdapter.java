@@ -1,16 +1,19 @@
 package com.example.android.allahabadtourism.adapters;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.android.allahabadtourism.R;
 import com.example.android.allahabadtourism.abstract_type.Industry;
+import com.example.android.allahabadtourism.activities.IndustryDetail;
 
 import java.util.ArrayList;
 
@@ -32,30 +35,61 @@ public class IndustryAdapter extends ArrayAdapter<Industry> {
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.industry_list_item, parent, false);
         }
-
-        // Get the {@link AndroidFlavor} object located at this position in the list
         Industry currentIndustry = getItem(position);
-
-        // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView industryNameTextView = (TextView) listItemView.findViewById(R.id.industry_name_textView);
-        // Get the version name from the current AndroidFlavor object and
-        // set this text on the name TextView
+        final TextView industryNameTextView = (TextView) listItemView.findViewById(R.id.industry_name_textView);
         industryNameTextView.setText(currentIndustry.getIndustryName());
-
-        // Find the TextView in the list_item.xml layout with the ID version_number
         TextView industryDetailTextView = (TextView) listItemView.findViewById(R.id.industry_short_desc_textView);
-        // Get the version number from the current AndroidFlavor object and
-        // set this text on the number TextView
         industryDetailTextView.setText(currentIndustry.getIndustryDetail());
-        // Find the ImageView in the list_item.xml layout with the ID list_item_icon
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.industry_image);
+        LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.linear_layout_industry);
+        linearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String flag = industryNameTextView.getText().toString();
+                String[] short_desc = getContext().getResources().getStringArray(R.array.industry_name);
+                if (flag.equalsIgnoreCase(short_desc[0])) {
+                    Intent intent = new Intent(getContext(), IndustryDetail.class);
+                    intent.putExtra("keys_industry", 0);
+                    getContext().startActivity(intent);
 
+                }
+                if (flag.equalsIgnoreCase(short_desc[1])) {
+                    Intent intent = new Intent(getContext(), IndustryDetail.class);
+                    intent.putExtra("keys_industry", 1);
+                    getContext().startActivity(intent);
+
+                }
+                if (flag.equalsIgnoreCase(short_desc[2])) {
+                    Intent intent = new Intent(getContext(), IndustryDetail.class);
+                    intent.putExtra("keys_industry", 2);
+                    getContext().startActivity(intent);
+
+                }
+                if (flag.equalsIgnoreCase(short_desc[3])) {
+                    Intent intent = new Intent(getContext(), IndustryDetail.class);
+                    intent.putExtra("keys_industry", 3);
+                    getContext().startActivity(intent);
+
+                }
+                if (flag.equalsIgnoreCase(short_desc[4])) {
+                    Intent intent = new Intent(getContext(), IndustryDetail.class);
+                    intent.putExtra("keys_industry", 4);
+                    getContext().startActivity(intent);
+
+                }
+                if (flag.equalsIgnoreCase(short_desc[5])) {
+                    Intent intent = new Intent(getContext(), IndustryDetail.class);
+                    intent.putExtra("keys_industry", 5);
+                    getContext().startActivity(intent);
+
+                }
+
+            }
+        });
         iconView.setImageResource(currentIndustry.getIndustryImageId());
         View textContainer = listItemView.findViewById(R.id.industry_text_container);
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         textContainer.setBackgroundColor(color);
-        // Return the whole list item layout (containing 2 TextViews and an ImageView)
-        // so that it can be shown in the ListView
         return listItemView;
     }
 

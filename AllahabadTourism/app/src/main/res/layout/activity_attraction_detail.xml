@@ -5,42 +5,44 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.allahabadtourism.activities.AttractionDetail">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/image_list_attraction"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/attraction_details_image_height"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_attraction_title"
+            style="@style/DetailTextTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:text="AttractionName" />
 
-            <ImageView
-                android:id="@+id/image_list_attraction"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/attraction_details_image_height"
-                android:scaleType="centerCrop" />
+        <TextView
+            style="@style/DetailTextHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description" />
 
-            <TextView
-                android:id="@+id/text_attraction_title"
-                style="@style/DetailTextTitle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="AttractionName" />
+        <TextView
+            android:id="@+id/long_textView"
+            style="@style/DetailTextContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LongDescription" />
 
-            <TextView
-                style="@style/DetailTextHeader"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/description" />
+        <Button
+            android:id="@+id/button_maps"
+            style="@style/MapsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maps" />
 
-            <TextView
-                android:id="@+id/long_textView"
-                style="@style/DetailTextContent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="LongDescription" />
-
-        </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout>

@@ -7,8 +7,7 @@ public class Attraction {
 
     private String getmAttractionName;
     private String mAttractionShortDesc;
-    private int mImageResourceId = NO_IMAGE_PROVIDED;
-    private static final int NO_IMAGE_PROVIDED = -1;
+    private int mImageResourceId;
 
     /**
      * @param mAttractionName
@@ -22,22 +21,16 @@ public class Attraction {
         this.mImageResourceId = imageResourceId;
     }
 
-    public String getGetmAttractionName() {
+    public String getGetAttractionName() {
         return getmAttractionName;
     }
 
-    public String getmAttractionShortDesc() {
+    public String getAttractionShortDesc() {
         return mAttractionShortDesc;
     }
 
     public int getImageResourceId() {
         return mImageResourceId;
-    }
-
-    public boolean hasImage() {
-        return mImageResourceId != NO_IMAGE_PROVIDED;
-
-
     }
 
 }

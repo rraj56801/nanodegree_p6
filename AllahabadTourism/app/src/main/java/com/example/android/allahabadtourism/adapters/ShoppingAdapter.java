@@ -1,16 +1,19 @@
 package com.example.android.allahabadtourism.adapters;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.android.allahabadtourism.R;
 import com.example.android.allahabadtourism.abstract_type.Shopping;
+import com.example.android.allahabadtourism.activities.ShoppingDetail;
 
 import java.util.ArrayList;
 
@@ -32,30 +35,61 @@ public class ShoppingAdapter extends ArrayAdapter<Shopping> {
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.shopping_list_item, parent, false);
         }
-
-        // Get the {@link AndroidFlavor} object located at this position in the list
         Shopping currentShopping = getItem(position);
-
-        // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView shoppingNameTextView = (TextView) listItemView.findViewById(R.id.shopping_name_textView);
-        // Get the version name from the current AndroidFlavor object and
-        // set this text on the name TextView
+        final TextView shoppingNameTextView = (TextView) listItemView.findViewById(R.id.shopping_name_textView);
         shoppingNameTextView.setText(currentShopping.getShoppingName());
-
-        // Find the TextView in the list_item.xml layout with the ID version_number
         TextView shoppingDetailTextView = (TextView) listItemView.findViewById(R.id.shopping_short_desc_textView);
-        // Get the version number from the current AndroidFlavor object and
-        // set this text on the number TextView
         shoppingDetailTextView.setText(currentShopping.getShoppingDetail());
-        // Find the ImageView in the list_item.xml layout with the ID list_item_icon
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.image_shopping);
+        LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.linear_layout_shopping);
+        linearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String flag = shoppingNameTextView.getText().toString();
+                String[] short_desc = getContext().getResources().getStringArray(R.array.shopping_name);
+                if (flag.equalsIgnoreCase(short_desc[0])) {
+                    Intent intent = new Intent(getContext(), ShoppingDetail.class);
+                    intent.putExtra("keys_shopping", 0);
+                    getContext().startActivity(intent);
+
+                }
+                if (flag.equalsIgnoreCase(short_desc[1])) {
+                    Intent intent = new Intent(getContext(), ShoppingDetail.class);
+                    intent.putExtra("keys_shopping", 1);
+                    getContext().startActivity(intent);
+
+                }
+                if (flag.equalsIgnoreCase(short_desc[2])) {
+                    Intent intent = new Intent(getContext(), ShoppingDetail.class);
+                    intent.putExtra("keys_shopping", 2);
+                    getContext().startActivity(intent);
+
+                }
+                if (flag.equalsIgnoreCase(short_desc[3])) {
+                    Intent intent = new Intent(getContext(), ShoppingDetail.class);
+                    intent.putExtra("keys_shopping", 3);
+                    getContext().startActivity(intent);
+
+                }
+                if (flag.equalsIgnoreCase(short_desc[4])) {
+                    Intent intent = new Intent(getContext(), ShoppingDetail.class);
+                    intent.putExtra("keys_shopping", 4);
+                    getContext().startActivity(intent);
+
+                }
+                if (flag.equalsIgnoreCase(short_desc[5])) {
+                    Intent intent = new Intent(getContext(), ShoppingDetail.class);
+                    intent.putExtra("keys_activity", 5);
+                    getContext().startActivity(intent);
+
+                }
+            }
+        });
 
         iconView.setImageResource(currentShopping.getShoppingImageId());
         View textContainer = listItemView.findViewById(R.id.shopping_text_container);
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         textContainer.setBackgroundColor(color);
-        // Return the whole list item layout (containing 2 TextViews and an ImageView)
-        // so that it can be shown in the ListView
         return listItemView;
     }
 

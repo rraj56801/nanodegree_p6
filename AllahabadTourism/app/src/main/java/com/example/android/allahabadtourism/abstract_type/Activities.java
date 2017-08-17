@@ -6,8 +6,7 @@ package com.example.android.allahabadtourism.abstract_type;
 public class Activities {
     private String getmActivityName;
     private String mActivityShortDesc;
-    private int mImageResourceId = NO_IMAGE_PROVIDED;
-    private static final int NO_IMAGE_PROVIDED = -1;
+    private int mImageResourceId;
 
     /**
      * @param mActivityName
@@ -21,11 +20,11 @@ public class Activities {
         this.mImageResourceId = imageResourceId;
     }
 
-    public String getGetmActivityName() {
+    public String getGetActivityName() {
         return getmActivityName;
     }
 
-    public String getmActivityShortDesc() {
+    public String getActivityShortDesc() {
         return mActivityShortDesc;
     }
 
@@ -33,10 +32,5 @@ public class Activities {
         return mImageResourceId;
     }
 
-    public boolean hasImage() {
-        return mImageResourceId != NO_IMAGE_PROVIDED;
-
-
-    }
 
 }

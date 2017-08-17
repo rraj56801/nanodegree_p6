@@ -15,7 +15,6 @@ import java.util.ArrayList;
 
 public class AttractionFragment extends Fragment {
 
-
     public AttractionFragment() {
         // Required empty public constructor
     }
@@ -30,18 +29,17 @@ public class AttractionFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_fragment_attraction, container, false);
         final ArrayList<Attraction> attraction = new ArrayList<Attraction>();
-        String[] name = getResources().getStringArray(R.array.activities_name);
-        String[] short_desc = getResources().getStringArray(R.array.activities_short_desc);
-        int[] imageId = {R.drawable.paramotoring, R.drawable.gokarting, R.drawable.segway_tour, R.drawable.camping, R.drawable.gamin_vegas, R.drawable.ice_skating, R.drawable.trekking};
-        for (int i = 0; i < name.length; i++) {
-            attraction.add(new Attraction(name[i], short_desc[i], R.drawable.image));
+        String[] name = getResources().getStringArray(R.array.attraction_name);
+        String[] shortDesc = getResources().getStringArray(R.array.attraction_description_short);
+        int[] imageId = {R.drawable.anand_bhavan, R.drawable.allahabad_fort, R.drawable.alfred_park, R.drawable.allahabad_museum, R.drawable.alfred_park, R.drawable.anand_bhavan, R.drawable.patalpuri_temple,R.drawable.patalpuri_temple};
+         for (int i = 0; i < name.length; i++) {
+            attraction.add(new Attraction(name[i], shortDesc[i], imageId[i]));
 
         }
         AttractionAdapter attractionAdapter =
-                new AttractionAdapter(getActivity(), attraction, R.color.background);
+                new AttractionAdapter(getActivity(), attraction, R.color.attraction_color);
         ListView listView = (ListView) rootView.findViewById(R.id.attraction_listView_id);
         listView.setAdapter(attractionAdapter);
-        // Inflate the layout for this fragment
         return rootView;
     }
 }
