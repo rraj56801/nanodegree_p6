@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Allahabad Tourism</string>
+    <string name="splash_title">Welcome To Allahabad</string>
     <string-array name="fragment_name">
         <item>Attraction</item>
         <item>Activity</item>
@@ -21,14 +22,14 @@
     </string-array>
 
     <string-array name="attraction_description_short">
-        <item>Anand Bhavan is the ancestral home of Jawaharlal Nehru, the first Prime-Minister of India.</item>
-        <item>Allahabad Fort is a fort built by the Mughal emperor Akbar at Allahabad, in 1583.</item>
-        <item>Alfred Park is a public park in Allahabad. Built in 1870 to mark Prince Alfred\'s visit to the city</item>
-        <item>The Allahabad Museum is a national-level museum in Allahabad, Uttar Pradesh.</item>
-        <item>An amusement-cum-water park for all age groups so that the entire family can enjoy together</item>
-        <item>It is situated beside Anand Bhavan the former residence of the Nehru-Gandhi family and now a museum.</item>
+        <item>Anand Bhavan is the ancestral home of Jawaharlal Nehru.</item>
+        <item>Allahabad Fort is a fort built by the Mughal emperor Akbar.</item>
+        <item>Alfred Park is a public park in Allahabad.</item>
+        <item>The Allahabad Museum is a national-level museum.</item>
+        <item>An amusement-cum-water park for all age groups.</item>
+        <item>Situated beside Anand Bhavan.</item>
         <item>Built by the Mughal Emperor Akbar.</item>
-        <item>Triveni Sangam in Allahabad is the confluence of three rivers, Yamuna, Ganga and the mythical Saraswati.</item>
+        <item>Triveni Sangam in Allahabad is the confluence of three rivers.</item>
     </string-array>
     <string-array name="attraction_description_long">
         <item>The Anand Bhavan is a historic house museum in Allahabad, India focusing on the Nehru Family. It was constructed by Indian political leader Motilal Nehru in the 1930s to serve as the residence of the Nehru family when the original mansion Swaraj Bhavan (previously called Anand Bhavan) was transformed into the local headquarters of the Indian National Congress.Anand Bhavan was donated to Indian government in 1970 by the then Prime Minister Indira Gandhi, the granddaughter of Motilal Nehru and daughter of Jawaharlal Nehru.</item>
@@ -61,7 +62,7 @@
         <item>Trekking</item>
     </string-array>
     <string-array name="activities_short_desc">
-        <item>Enjoy a session of paramotoring which lets you fly in the sky like a bird with the help of a paramotor</item>
+        <item>Fly in the sky like a bird.</item>
         <item>5-storey victory tower with balconies</item>
         <item>Palatial 16th-century tomb of Humayun</item>
         <item>1920s triumphal arch and war memorial</item>
@@ -155,12 +156,12 @@
 
     </string-array>
     <string-array name="shopping_short_desc">
-        <item>218 E/71, MG Marg, Civil Lines, Madhopur, Allahabad, Uttar Pradesh 211001</item>
-        <item>48/24, Sardar Patel Marg, Civil Lines, Allahabad, Uttar Pradesh 211001</item>
-        <item>85 D Daud Nagar Naini, Allahabad, Uttar Pradesh 211008</item>
-        <item>41F/70A/5B/1 MADHOPUR PATTI UP, Kharkauni, Naini, Allahabad, Uttar Pradesh 211008</item>
-        <item>05 allahabad, A. D. A. Colony, Naini, Allahabad, Uttar Pradesh 211008</item>
-        <item>38/1, Near Jeetlal Chauraha, P.A.C. Colony, Naini, Allahabad, Uttar Pradesh 211008</item>
+        <item>218 E/71, MG Marg, Civil Lines, Madhopur, Allahabad</item>
+        <item>48/24, Sardar Patel Marg, Civil Lines, Allahabad</item>
+        <item>85 D Daud Nagar Naini, Allahabad</item>
+        <item>41F/70A/5B/1 MADHOPUR PATTI UP, Kharkauni, Naini</item>
+        <item>05 allahabad, A. D. A. Colony, Naini, Allahabad</item>
+        <item>38/1, Near Jeetlal Chauraha, P.A.C. Colony, Naini, Allahabad</item>
     </string-array>
     <string-array name="shopping_description_long">
         <item>A quiet good mall with free parking. Shopping options and a quick are easily available here. There are several fast food chains and restaurants to go to. Other franchise here includes Amway etc.</item>
@@ -187,7 +188,7 @@
         <item>SAIL INDIA</item>
     </string-array>
     <string-array name="industry_short_desc">
-        <item> 67/23/41- J, Ramanand Nagar, Allahpur, Allahabad, Uttar Pradesh 211006</item>
+        <item> 67/23/41- J, Ramanand Nagar, Allahpur, Allahabad 211006</item>
         <item>Mirzapur Road, Naini, Allahabad, Uttar Pradesh 211009</item>
         <item>Naini Railway, Mirzapur Rd, Naini, Allahabad, Uttar Pradesh 211010</item>
         <item>154, Tilak Nagar, Allahpur, Allahabad, Uttar Pradesh 211006</item>
@@ -213,12 +214,12 @@
         <item>Dominos</item>
     </string-array>
     <string-array name="restaurant_short_desc">
-        <item>218 E/71, MG Marg, Civil Lines, Madhopur, Allahabad, Uttar Pradesh 211001</item>
-        <item>48/24, Sardar Patel Marg, Civil Lines, Allahabad, Uttar Pradesh 211001</item>
+        <item>218 E/71, MG Marg, Civil Lines, Madhopur, Allahabad</item>
+        <item>48/24, Sardar Patel Marg, Civil Lines, Allahabad</item>
         <item>85 D Daud Nagar Naini, Allahabad, Uttar Pradesh 211008</item>
-        <item>41F/70A/5B/1 MADHOPUR PATTI UP, Kharkauni, Naini, Allahabad, Uttar Pradesh 211008</item>
-        <item>05 allahabad, A. D. A. Colony, Naini, Allahabad, Uttar Pradesh 211008</item>
-        <item>38/1, Near Jeetlal Chauraha, P.A.C. Colony, Naini, Allahabad, Uttar Pradesh 211008</item>
+        <item>41F/70A/5B/1 MADHOPUR PATTI UP, Kharkauni, Naini</item>
+        <item>05 allahabad, A. D. A. Colony, Naini, Allahabad</item>
+        <item>38/1, Near Jeetlal Chauraha, P.A.C. Colony, Naini</item>
     </string-array>
     <!--Using array so that it can be populated as needed -->
     <string-array name="restaurant_description_long">

@@ -2,7 +2,6 @@ package com.example.android.allahabadtourism.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,13 +38,11 @@ public class FragmentShoping extends Fragment {
             shopping.add(new Shopping(name[i], short_desc[i],imageId[i]));
 
         }
-        Log.v("Shop Frag","Before list" );
         ShoppingAdapter shoppingAdapter =
                 new ShoppingAdapter(getActivity(), shopping, R.color.shopping_colors);
         ListView listView = (ListView) rootView.findViewById(R.id.shopping_listView_id);
         listView.setAdapter(shoppingAdapter);
-        Log.v("Shop Frag","Before list" );
-        return rootView;
+         return rootView;
     }
 
 

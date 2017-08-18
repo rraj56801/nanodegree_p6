@@ -13,12 +13,12 @@
         android:src="@drawable/splash" />
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="30dp"
         android:gravity="center_horizontal"
-        android:text="Welcome To Allahabad"
-        android:textColor="#454545"
+        android:text="@string/splash_title"
+        android:textColor="@color/activity_color"
         android:textSize="20sp" />
 </RelativeLayout>
