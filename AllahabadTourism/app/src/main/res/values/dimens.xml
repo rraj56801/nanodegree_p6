@@ -8,6 +8,7 @@
     <dimen name="toolbar_height">48dp</dimen>
     <dimen name="custom_tab_layout_height">72dp</dimen>
     <dimen name="image_act_details_height">150dp</dimen>
+    <dimen name="image_size_list">100dp</dimen>
     <dimen name="attraction_details_image_height">200dp</dimen>
     <dimen name="industry_details_image_height">200dp</dimen>
     <dimen name="restaurant_details_image_height">200dp</dimen>

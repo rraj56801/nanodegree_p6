@@ -17,6 +17,9 @@
             android:id="@+id/image_activity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="@dimen/image_size_list"
+            android:minWidth="@dimen/image_size_list"
+            android:scaleType="centerCrop"
             android:src="@mipmap/ic_launcher" />
 
         <LinearLayout
